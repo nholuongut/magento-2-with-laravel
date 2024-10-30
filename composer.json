@@ -1,0 +1,16 @@
+{
+    "name": "nholuongut/magento-2-with-laravel",
+    "description": "Use Magento backend with Laravel or any PHP framework",
+    "homepage": "http://github.com/nholuongut/magento-2-with-laravel",
+    "license": "MIT",
+    
+    "require": {
+        "php": ">=7.3",
+        "illuminate/database": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laragento\\": "src/"
+        }
+    }
+}
